@@ -1,0 +1,15 @@
+.table{
+  border: 1px solid #eee;
+  width: 65%;
+  border-radius: 8px;
+  margin-left: 10rem;
+}
+.searrchInput{
+  width: 100%;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 30px;
+}
+.searchInputHomePage{
+  width: 450px;
+}

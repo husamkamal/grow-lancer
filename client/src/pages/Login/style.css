@@ -1,0 +1,74 @@
+.login{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  width: 100%;
+}
+.form-img{
+  width: 100%;
+  text-align: right;
+  padding-left: 4rem;
+}
+.form-img img{
+  width: 95%;
+}
+ .form-login{
+  width: 100%;
+  margin-left: 100px;
+}
+.title-login{
+  font-size: 25px;
+  width: 57%;
+  padding-bottom: 20px;
+  color: #1C3879;
+  text-align: center;
+}
+.input-login{
+  width: 60%;
+  
+}
+.css-nfagch-MuiInputBase-root-MuiOutlinedInput-root{
+  background-color: #EFF0F2;
+}
+.form-password{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.login .title-input{
+  color: #1C3879;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.login span{
+  color: #607EAA;
+}
+.btn-login{
+  padding: .6rem 3rem !important;
+  background-color: #1C3879 !important;
+  color: #fff !important;
+}
+.form-bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+}
+.form-bottom span{
+  margin: 6px 0;
+}
+.link-signup{
+  color: #1C3879;
+}
+.login .form-login .google-btn{
+  width: 415px !important;
+  height: 50px;
+}
+.oauth-login-btns button{
+ margin: 8px 0 ;
+}
+.oauth-login-btns button:nth-child(2){
+ margin-bottom: 20px;
+}

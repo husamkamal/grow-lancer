@@ -1,0 +1,14 @@
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination{
+    margin: auto;
+}
+.jobs-page{
+    padding-top: 70px;
+}
+.searrchInput{
+    margin-bottom: 4rem !important;
+}

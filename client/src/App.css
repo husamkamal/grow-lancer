@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0px 7rem;
+}
+body{
+    padding-top: 75px;
+    min-height: 100vh !important;
+    position: relative;
+}
+@media screen and (min-width: 1800px) {
+    .container {
+        max-width: 1500px;
+        margin: 0px auto;
+    }
+}

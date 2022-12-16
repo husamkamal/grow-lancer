@@ -1,0 +1,40 @@
+.sideBar{
+  position: fixed;
+  right: 90px;
+  top: 215px;
+  padding: 30px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  transform: scale(.9);
+}
+.label{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+  color: #1C3879;
+
+}
+.categories{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  color: #737373;
+}
+.catelabel{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selectPrice{
+   height: 37px;
+   margin: 10px 0 
+}
+#demo-multiple-chip-label{
+  margin: 15px 0;
+  font-family: 'Ubuntu';
+}
+.cancleIcon{
+  cursor:pointer;
+}

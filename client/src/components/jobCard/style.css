@@ -1,0 +1,56 @@
+  .job-card{
+  margin: 2rem 0px;
+  position: relative;
+}
+.job-card::after{
+  content: '';
+  width: 80%;
+  position: absolute;
+  border-bottom: 1px solid #eee;
+  bottom: -20px;
+  left: 10%;
+}
+.job-card p{
+  color: #1E1E1E ;
+}
+.second-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  color: #1E1E1E;
+}
+.budget-proposal-section{
+  display: flex;
+  width: 700px;
+  align-items: center;
+  /* background-color: red; */
+  justify-content: space-between;
+}
+.budget{
+  margin-left: 4rem;
+}
+.proposals span , .budget span{
+  color: #1C3879;
+}
+.description{
+  margin-bottom: 10px;
+  width: 100% !important;
+  text-align: left !important;
+}
+.description p{
+  font-size: 17px !important;
+}
+.content{
+  padding: 0px 2rem;
+}
+.second-section .Mui-disabled{
+  background-color: #fff !important;
+  opacity: 1 !important;
+}
+.budget-proposal-client{
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.link-description{
+  color: #1E1E1E;
+}

@@ -1,0 +1,91 @@
+.menu-item{
+  color:#333;
+  padding:0 1.5rem;
+}
+.user-nav-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+.user-nav-info p{
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+}
+.nav-logo{
+
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo img{
+   width: 100%;
+   padding: 5px;
+}
+.auth-btns{
+    width: 100px !important;
+    margin: .5rem !important;
+    padding: .5rem 2rem !important;
+    border-radius: 20px !important;
+}
+.abs-nav{
+  animation: nav-anim-abs .5s both;
+}
+.fixed-nav{
+  position: fixed !important;
+  animation: nav-anim .8s both;
+}
+@keyframes nav-anim {
+  from{
+    transform: translateY(-60px);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+@keyframes nav-anim-abs {
+  from{
+    transform: translateY(80px);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+.nav-page.active button{
+ border-bottom: 2px solid #132754;
+ border-radius: 0 !important;
+}
+.notification-list{
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  max-height: 600px !important;
+}
+.notification-list .notification{
+  min-width: 400px !important;
+  max-width: 500px;
+  height: 120px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  transition: all .4s ease;
+
+}
+.notification-list .notification:hover{
+background-color: #eee;
+}
+.notification-list .notification p{
+width: 90%;
+white-space: normal;
+
+}
+.notification small{
+  color: rgb(141, 141, 141);
+}

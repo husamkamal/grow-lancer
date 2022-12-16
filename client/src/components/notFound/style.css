@@ -1,0 +1,25 @@
+.not-found-comp{
+  width: 400px;
+}
+.not-found-comp p {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 100;
+}
+
+.not-found-comp h1 {
+  text-align: center;
+  font-size: 10em;
+  font-weight: 100;
+}
+.not-found-comp .go-home{
+  font-size: 1.5em;
+  text-align: center;
+  display: block;
+  font-weight: 100;
+  margin-top: 10px;
+  color: #1C3878;
+  font-weight: 600;
+  text-decoration: underline;
+  border-radius: 4px;
+}

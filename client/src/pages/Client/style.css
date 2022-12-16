@@ -1,0 +1,9 @@
+.client-pro{
+  display: flex;
+  flex-direction: column;
+}
+.btn-table{
+  display: flex;
+  width: 76%;
+  justify-content: end;
+}

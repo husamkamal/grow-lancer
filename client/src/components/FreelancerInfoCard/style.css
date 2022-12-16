@@ -1,0 +1,65 @@
+.freelancer-info-card{
+  width: 100%;
+  margin: 2rem 0;
+  position: relative;
+}
+.freelancer-info-card-img{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.freelancer-info-card img{
+  width: 100%;
+  max-width: 300px;
+  border-radius: 4px;
+}
+
+.freelancer-info-card-content{
+  padding: 2px 1rem;  
+  height: 100%;
+}
+.freelancer-info-card-content h3{
+font-size: 34px;
+color: #1C3879;
+margin: 0;
+}
+.freelancer-info-card-content p.freelancer-major{
+font-size: 20px;
+color: #565b5b;
+margin: 5px 0;
+font-weight: 600;
+}
+.freelancer-info-card-content p.freelancer-brief{
+font-size: 18px;
+color: #3F4444;
+margin-top: 2rem;
+font-weight: 400;
+width: 474px;
+}
+.freelancer-info-card-content p.freelancer-portfolio{
+  font-size: 16px;
+margin-top: 1rem;
+font-weight: 600;
+}
+#card-edit-btn{
+  position: absolute;
+  bottom: 20px;
+  right: 150px;
+  background-color: #1C3879;
+  color: #fff;
+}
+#upload-new-img-btn{
+  background-color: #eee;
+  color: #313879;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+#card-edit-btn:disabled{
+  background-color: #ccc !important;
+}
+.freelancer-title{
+  margin-right: 10px;
+}

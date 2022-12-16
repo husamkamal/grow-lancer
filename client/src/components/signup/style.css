@@ -1,0 +1,68 @@
+.signup-form-1{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.header-signup-1{
+  color: #1C3879;
+}
+.s-u-form{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.signup-form-1 .form-input label{
+      width: 50%;
+      display: flr;
+      display: flex;
+      padding-left: 12rem;
+}
+.formDivContainer{
+  width: 70%;
+  margin: auto;
+  height: 72vh;
+}
+.thirdStepForm{
+  height: 100%;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.firstPart{
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.secondPart{
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.UploadImageHolder{
+  min-height: 65px;
+   display: flex;
+  flex-direction: column; 
+    width: 80%;
+}
+.oAuth-btns{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin: 2rem auto;
+  gap: 1.5rem;
+  width: 546px;
+}
+.oAuth-btns button{
+  margin: 0 !important;
+  width: 100% !important;
+}
+.signup-page .css-u4p24i {
+  margin: 0 auto !important;
+  width: 45% !important;
+}

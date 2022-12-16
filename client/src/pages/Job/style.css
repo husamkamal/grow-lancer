@@ -1,0 +1,16 @@
+.spinner{
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 9rem;
+}
+
+.error-not-found{
+  text-align: center;
+  color: #1C3879;
+  font-size: 40px;
+  margin-top: 15rem;
+}
+.holders{
+  width: 65%;
+  margin: auto;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "g-lanceer",
+  "version": "1.0.0",
+  "description": "A platform that combine clients with professional freelancers",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "client": "cd client && npm run start",
+    "init": "cd client && npm i && cd ../server && npm i",
+    "install": "npm run init",
+    "dev": "cd server && npm run dev",
+    "prepare": "is-ci || npx husky install",
+    "test": "cd server && npm run test",
+    "fix:lint": "cd server && npm run fix:lint && cd ../client && npm run fix:lint",
+    "db:seed": "cd server && npm run db:seed",
+    "build": "cd client && npm run build && cd ../server && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CA-G12/g-lanceer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CA-G12/g-lanceer/issues"
+  },
+  "homepage": "https://github.com/CA-G12/g-lanceer#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.1"
+  }
+}

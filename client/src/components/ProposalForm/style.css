@@ -1,0 +1,33 @@
+.proposal-form{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem 0;
+  margin-left: 4rem;
+}
+.proposal-form h2{
+  color: #1C3879;
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
+.proposal-attachment,.proposal-text{
+  width: 100%;
+}
+.proposal-attachment-input{
+  width: 100%;
+}
+.submitProposal{
+  padding: .6rem 3rem !important;
+  background-color: #1C3879 !important;
+  color: #fff !important;
+  margin-left: auto !important;
+}
+.submitProposal.loading{
+  background-color: #ccc !important;
+}
+/* .proposal-text div div{
+  width: 113.5%;
+} */
