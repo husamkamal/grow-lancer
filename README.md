@@ -100,14 +100,3 @@ A platform that combine clients with professional freelancers
 5. To run the server, you can run the ``` npm run dev ```  and to run the client server you need to ```npm run client```
 
 6. To build the database ``` npm run db:seed```
-
-## Our Great Team
-- [Shatha K. Eqdaih](https://github.com/shathakh) => shathaqudaih17@gmail.com 
-- [Moahmmed Alagha](https://github.com/mohammedagha27) => modyagha7@gmail.com 
-- [Nagham Abuwarda](https://github.com/naghamabuwarda) => nasomabuwarda@gmail.com  
-- [Ali Al-Shanti](https://github.com/alishanti98) => alialshanti90@gmail.com 
-
-
-## Our Great Team Leader
-- [Lina Ebeid](https://github.com/LinaYahya)
-
