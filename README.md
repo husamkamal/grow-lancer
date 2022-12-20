@@ -68,9 +68,6 @@ A platform that combine clients with professional freelancers
     -  I want to add a new Job.
     -  I want to see the freelancer profile.
     -  I want to accept the proposal and hire the freelancer.
-  
-### Figma and UI/UX Design
-- [Figma](https://www.figma.com/file/JscUnsrkjrziWvlS5jOGL5/Freelance?node-id=0%3A1)
 
 
 ### Installation
